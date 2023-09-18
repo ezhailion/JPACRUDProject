@@ -1,0 +1,6 @@
+@charset "UTF-8";
+.background-color-black {
+	background-color: black;
+	color: white;
+	padding: 50px;
+}

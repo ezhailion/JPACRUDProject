@@ -38,6 +38,14 @@ public class Game {
 		this.title = title;
 	}
 
+
+	public String getCoverImageURL() {
+		return coverImageURL;
+	}
+
+	public void setCoverImageURL(String coverImageURL) {
+		this.coverImageURL = coverImageURL;
+	}
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
@@ -48,12 +56,12 @@ public class Game {
 		builder.append("]");
 		return builder.toString();
 	}
-
+	
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
 	}
-
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
