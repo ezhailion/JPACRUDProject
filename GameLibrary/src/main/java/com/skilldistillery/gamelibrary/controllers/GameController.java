@@ -28,7 +28,7 @@ public class GameController {
 	public String getGame(@RequestParam("id") int gameId, Model model) {
 		Game game = dao.findById(gameId);		
 		model.addAttribute("game", game);
-		return "gameView/result";
+		return "view/result";
 	}
 
 	// go to the addGame.jsp for adding
@@ -46,7 +46,7 @@ public class GameController {
 	}
 	@GetMapping(path="gameCreated.do")
 	public String gameAdded() {
-		return "gameView/result";
+		return "view/result";
 	}
 	
 	// when editGame.do confirm game and add to model to go to the update page

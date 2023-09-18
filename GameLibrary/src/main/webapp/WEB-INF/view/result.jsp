@@ -39,7 +39,7 @@
 					</c:if>
 				</div>
 				<div class="col-12">	
-					<img alt="#" src="${game.urlImg}">				
+					<img alt="#" src="${game.coverImageURL}">				
 				</div>
 			</div>
 		</c:when>
