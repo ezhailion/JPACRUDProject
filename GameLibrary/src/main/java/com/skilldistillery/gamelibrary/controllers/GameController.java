@@ -51,7 +51,7 @@ public class GameController {
 	
 	// when editGame.do confirm game and add to model to go to the update page
 	@RequestMapping(path = "editGame.do", method = RequestMethod.GET)
-	public String goUpdateGame(@RequestParam("id") int id, Game game, Model model) {
+	public String goUpdateGame(int id, Game game, Model model) {
 		Game gameToUpdate = dao.findById(game.getId());
 		model.addAttribute("game", gameToUpdate);
 		return "updateGame";

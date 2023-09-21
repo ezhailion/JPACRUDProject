@@ -26,6 +26,7 @@
 									<form action="editGame.do" method="GET">
 				        				<button type="submit" class='btn btn-success'>Edit Details</button>
 				        				<input type="hidden" name="id" value="${game.id}" />
+				        				<input type="hidden" name="id" value="${game.title}" />
 				    				</form>
 			    				</div>
 								<div class='col-4'>

@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1>JPA Game Library</h1>
-${gameList }
+
 
 <div class="container">
 		<form action="getGame.do" method="GET">
