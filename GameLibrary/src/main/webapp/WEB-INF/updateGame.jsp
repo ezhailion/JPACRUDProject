@@ -20,7 +20,7 @@
 			</div>
 			<div class='col-5'>
 				<span class='input-group-text'>Image URL: </span>
-					<input class='form-control' name='urlImg' type='text' value='${game.urlImg}'/>
+					<input class='form-control' name='urlImg' type='text' value='${game.coverImageURL}'/>
 			</div>					
 		</div>			
 		</form>

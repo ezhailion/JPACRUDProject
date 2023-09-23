@@ -63,7 +63,7 @@ public class GameController {
 		Game updatedGame = dao.update(id, game);
 		System.out.println(updatedGame + " **************************************************8");
 		model.addAttribute("game", updatedGame);
-		return "gameView/result";
+		return "view/result";
 
 	}
 
